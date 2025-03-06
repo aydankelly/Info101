@@ -8,8 +8,8 @@ rovs[1, 2]
 
 # Pull out the model column from rovs using both square bracket and dollar sign
 # indexing
-#rovs[,"model"]
-#rovs$model
+rovs[ , 1]
+rovs$model
 
 # The file flowcytodata.csv contains artificial flow cytometry data, a technique
 # for counting phytoplankton and other single-cell organisms. Use the data from
